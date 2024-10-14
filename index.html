@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    html,
+body {
+  margin: 0;
+  border: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  background-color: cadetblue;
+}
+
+.title {
+  padding: 50px 25px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: lightgray;
+}
+
+@media (min-width: 960px) {
+  .header {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <div class="title">
+      <h1>Picture This!</h1>
+      <h4>My Really Cool Blog Post</h4>
+    </div>
+    <img src="museum1.jpg" alt="A beautiful museum interior">
+  </header>
+</body>
+
+</html>
